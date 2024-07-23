@@ -35,6 +35,25 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Project Tutorial
+
+create 3 links in home page http://localhost:3000/
+
+```
+export default function Home() {
+  return (
+    <section>
+      <section>
+        <Link href="/performance">Performance</Link>
+        <Link href="/reliability">Reliability</Link>
+        <Link href="/scale">Scale</Link>
+      </section>
+      Home Page
+    </section>
+  );
+}
+```
+
 ## improvement
 
 1. Update your tsconfig.json's path field to look like this:

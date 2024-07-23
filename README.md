@@ -68,5 +68,13 @@ export default function Home() {
 2. Add a / character in front of public anytime you need to import a static image:
 
    ```
-   import homeImg from './public/home.jpg';
+   import homeImg from 'public/home.jpg';
+   ```
+
+3. Remove inherit style of headings in next/static/css/layout.css
+
+4. use gradient in TailWind CSS:
+
+   ```
+   className="bg-gradient-to-r from-slate-900"
    ```
